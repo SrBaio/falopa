@@ -1,0 +1,131 @@
+/*Quitamos los margenes 
+de todos los elementos*/
+*{
+    margin: 0px;
+    /* border: 1px solid black; */
+}
+
+
+body{
+    background-color:cornflowerblue;
+    color:rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.botonera{
+    height: 30px;
+    background-color: chocolate;
+    opacity: 60%;
+    margin-bottom: 0px;
+}
+
+.banner{
+    height: 200px;
+    background-color: darkgrey;
+    opacity: 60%;
+    margin-bottom: 50px;
+}
+
+.content{
+    margin: auto;
+    /*max-width: 400px;*/
+    width: 60%;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    height:500px;
+    margin-bottom: 70px;
+    /*width: 400px;*/
+}
+
+.profile h1{
+    height: 10%;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 10px rgb(0, 0, 0);
+    margin: auto;
+    margin-bottom: 20px;
+    /* padding: 2%; */   
+}
+
+.profile img{
+    display: block;
+    margin: auto;
+    width: 50%;
+    min-width: 250px;
+    
+}
+
+
+
+.titulo{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    /* background-color: rgb(168, 193, 240); */
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.ataques{
+    font-weight: bold;
+    color: rgba(226, 0, 0, 0.897);
+}
+
+.defensas{
+    font-weight: bold;
+    color: rgb(19, 7, 185);
+}
+
+.ficha{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+    background-color: rgba(164, 231, 220, 0.349);
+}
+
+.ficha h2{
+    
+    font-weight: 400px;
+    font-style: normal;    
+}
+
+.tipo{
+    font-size: 15px;
+}
+
+.ficha img{
+    /*Activar display block para poder centrar la imagen*/
+    display: block;
+    /*centramos la imagen poniendo su margen en Automatico*/
+    margin: auto;
+    width: 60%;
+    max-width: 200px;
+}
+
+.ficha .descripcion{
+    font-size: large;
+    margin: 10px 0px;
+}
+
+.ficha .efecto{
+    font-size: 14px;
+    font-weight: 700;
+    color: blue;
+    margin: 10px 0px;
+} 
+.ficha .valores{
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+footer{
+    height: 200px;
+}
